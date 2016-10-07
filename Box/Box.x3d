@@ -2,7 +2,6 @@
 <!DOCTYPE X3D PUBLIC 'ISO//Web3D//DTD X3D 3.0//EN' 'http://www.web3d.org/specifications/x3d-3.0.dtd'>
 <X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
 	<Scene DEF='scene'>
-		<Background skyColor='0.000 0.000 0.000'/>
 		<Transform DEF='_0C300CFF00' translation='1.312 -1.264 1.053' scale='18.978 18.978 18.978' >
 			<Shape>
 				<Appearance DEF='Material__25' >
