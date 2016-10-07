@@ -10,58 +10,6 @@
     </style>
   </head>
   <body style='width:100%; height:100%; border:0; margin:0; padding:0;'>
-    <div id='HUDs_Div'> 
-      <div id='Interaction_Toolbox' style='margin:2px; padding:4px 150px 4px 4px; background-color:rgba(199,202,204,.7); position:absolute; z-index:1000; right:0px; top:0px;'> 
-        <table> 
-          <tr> 
-            <td>Navigation Mode: 
-            </td> 
-            <td align='right'> 
-              <select style='float:right;' onchange='document.getElementById(&apos;x3dElement&apos;).runtime[value]();'> 
-                <option selected='selected' value='examine'>Examine 
-                </option> 
-                <option value='turnTable'>TurnTable 
-                </option> 
-                <option value='lookAt'>LookAt 
-                </option> 
-                <option value='lookAround'>LookAround 
-                </option> 
-                <option value='fly'>Fly 
-                </option> 
-                <option value='freeFly'>FreeFly 
-                </option> 
-                <option value='helicopter'>Helicopter 
-                </option> 
-                <option value='walk'>Walk 
-                </option>  
-                <option value='noNav'>None 
-                </option> 
-              </select> 
-            </td> 
-          </tr> 
-          <tr> 
-            <td>Debug Display: 
-            </td> 
-            <td align='right'> 
-              <input type='checkbox' onclick='document.getElementById(&apos;x3dElement&apos;).runtime.statistics(this.checked);'> 
-              </input> Stats 
-              <input type='checkbox' onclick='document.getElementById(&apos;x3dElement&apos;).runtime.debug();'> 
-              </input> Log 
-            </td> 
-          </tr> 
-          <tr> 
-            <td> 
-              <button onclick='document.getElementById(&apos;x3dElement&apos;).runtime.showAll();'> Show Everything 
-              </button> 
-            </td> 
-            <td> 
-              <button onclick='document.getElementById(&apos;x3dElement&apos;).runtime.resetView();'> Reset View 
-              </button> 
-            </td> 
-          </tr> 
-        </table> 
-      </div> 
-    </div>
     <x3d id='x3dElement' showStat='false' showLog='false' style='width:100%; height:100%; border:0; margin:0; padding:0;'>
       <scene>
           <directionalLight id="directional" direction='0 0 1' on ="TRUE" intensity='1.0' shadowIntensity='0.0'> </directionalLight> 
